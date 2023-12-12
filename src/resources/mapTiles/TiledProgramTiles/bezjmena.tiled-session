@@ -1,0 +1,56 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "bezjmena.js",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "Forest.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 2
+        },
+        "PlantRepack.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "Teren.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "bezjmena.js": {
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 2619,
+                "y": 4088
+            }
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Martin Svanda/Desktop/OnlyTrueChebTheGame-main/OnlyTrueChebTheGame/src/resources/mapTiles/TiledProgramTiles",
+    "last.imagePath": "C:/Users/Martin Svanda/Desktop/OnlyTrueChebTheGame-main/OnlyTrueChebTheGame/src/resources/mapTiles/TiledProgramTiles",
+    "map.height": 200,
+    "map.lastUsedExportFilter": "Soubory GameMaker Room (*.room.gmx)",
+    "map.lastUsedFormat": "js",
+    "map.layerDataFormat": null,
+    "map.width": 200,
+    "openFiles": [
+        "bezjmena.js",
+        "Forest.tsx",
+        "Teren.tsx",
+        "PlantRepack.tsx"
+    ],
+    "project": "bezjmena.tiled-project",
+    "recentFiles": [
+        "PlantRepack.tsx",
+        "Teren.tsx",
+        "Forest.tsx",
+        "bezjmena.js"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
