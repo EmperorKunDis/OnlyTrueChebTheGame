@@ -11,8 +11,8 @@ import java.io.IOException;
 public class Entity {
 
     GamePanel gp;
-    public BufferedImage  up1, up2, up3, up4, up5, down1, down2, down3, down4, down5, left1, left2, left3, left4, left5, right1, right2, right3, right4, right5;
-    public BufferedImage attackUp1, attackUp2, attackDown1, attackDown2, attackLeft1, attackLeft2, attackRight1, attackRight2;
+    public BufferedImage  up1, up2, up3, up4, up5, up6, down1, down2, down3, down4, down5, down6, left1, left2, left3, left4, left5, left6, right1, right2, right3, right4, right5, right6;
+    public BufferedImage attackUp1, attackUp2, attackUp3, attackUp4, attackUp5, attackUp6, attackDown1, attackDown2, attackDown3, attackDown4, attackDown5, attackDown6, attackLeft1, attackLeft2, attackLeft3, attackLeft4, attackLeft5, attackLeft6, attackRight1, attackRight2, attackRight3, attackRight4, attackRight5, attackRight6;
     public BufferedImage  image1, image2, image3, image4, image5, image6, image7, image8, image9, image10;
     public Rectangle solidArea = new Rectangle(0, 0, 48, 48);
     public int solidAreaDefaultX, solidAreaDefaultY;
@@ -39,7 +39,7 @@ public class Entity {
     public String hlaska;
     public int speed;
     public int type; // 0 - Item, 1 - Monster, 2 - Object, 3 - Player, 4 - NPC, 5 - NPC - Quest, 6 - NPC - Shop, 7 - NPC - Trainer,
-    public String className = new String();
+    public String className = "___";
     public String strength = "___";
     public String dexterity = "___";
     public String constitution = "___";
@@ -110,19 +110,23 @@ public class Entity {
         spriteCounter++;
         if(spriteCounter > 16) {
             switch(imageMaxNum) {
-                case 4:
+                case 6:
+                    if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 4;} else if (spriteNum == 4) {spriteNum = 5;} else if (spriteNum == 5) {spriteNum = 6;} else if (spriteNum == 6) {spriteNum = 1;}
+                    spriteCounter = 1;
+                    break;
+                case 5:
                     if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 4;} else if (spriteNum == 4) {spriteNum = 5;} else if (spriteNum == 5) {spriteNum = 1;}
                     spriteCounter = 1;
                     break;
-                case 3:
+                case 4:
                     if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 4;} else if (spriteNum == 4) {spriteNum = 1;}
                     spriteCounter = 1;
                     break;
-                case 2:
+                case 3:
                     if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3){spriteNum = 1;}
                     spriteCounter = 1;
                     break;
-                case 1:
+                case 2:
                     if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2){spriteNum = 1;}
                     spriteCounter = 1;
                     break;
@@ -141,20 +145,13 @@ public class Entity {
                 worldY - gp.tileSize < gp.player.worldY + gp.player.screenY ) {
 
             switch(direction) {
-                case "up":
-                    switch(spriteNum){case 1:image1 = up1;break;case 2: image2=up2;break; case 3: image3=up3;break; case 4: image4 = up4;break;case 5: image5 = up5;break;}break;
-                case "down":
-                    switch(spriteNum){case 1:image1 = down1;break;case 2: image2=down2;break;case 3: image3=down3;break;case 4: image4 = down4;break;case 5: image5 = down5;break;}break;
-                case "left":
-                    switch(spriteNum){case 1:image1 = left1;break;case 2: image2=left2;break;case 3: image3= left3;break;case 4: image4 = left4; break;case 5: image5 = left5;break;}break;
-                case "right":
-                    switch(spriteNum){case 1:image1 = right1;break;case 2: image2=right2;break;case 3: image3 = right3;break;case 4: image4 = right4;break;case 5: image5 = right5;break;
-                    }
-                    break;
+                case "up": switch(spriteNum){case 1:image1 = up1;break;case 2: image2=up2;break; case 3: image3=up3;break; case 4: image4 = up4;break;case 5: image5 = up5;break; case 6: image6 = up6;}break;
+                case "down": switch(spriteNum){case 1:image1 = down1;break;case 2: image2=down2;break;case 3: image3=down3;break;case 4: image4 = down4;break;case 5: image5 = down5;break; case 6: image6 = down6;}break;
+                case "left": switch(spriteNum){case 1:image1 = left1;break;case 2: image2=left2;break;case 3: image3= left3;break;case 4: image4 = left4; break;case 5: image5 = left5;break; case 6: image6 = left6;}break;
+                case "right": switch(spriteNum){case 1:image1 = right1;break;case 2: image2=right2;break;case 3: image3 = right3;break;case 4: image4 = right4;break;case 5: image5 = right5;break; case 6: image6 = right6;}break;
             }
 
             g2.drawImage(image1, screenX, screenY, gp.tileSize, gp.tileSize, null);
-
             g2.setColor(Color.white);
             g2.drawRect(screenX, screenY, gp.tileSize, gp.tileSize);
 
@@ -163,21 +160,19 @@ public class Entity {
                 g2.drawRect(screenX, screenY, gp.tileSize, gp.tileSize);
             }
         }
-
     }
-    public BufferedImage setup(String imagePath, int weight, int height) {
+    public BufferedImage setup(String imagePath, int playerWidth, int playerHeight) {
         UtilityTool uTool = new UtilityTool();
         BufferedImage image = null;
         try {                                                      // resources/characters/npc/Huf/Huf_Up1.png
             image = ImageIO.read(getClass().getResourceAsStream(imagePath + ".png"));
-            image = uTool.scaleImage(image, weight, height);
+            image = uTool.scaleImage(image, playerWidth, playerHeight);
         }
         catch(IOException e) {
             e.printStackTrace();
         }
         return image;
     }
-
     public void dexterity(Graphics2D g2) {
     }
 }

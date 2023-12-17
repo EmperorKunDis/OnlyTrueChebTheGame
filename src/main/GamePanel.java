@@ -40,7 +40,7 @@ public class GamePanel extends JPanel implements Runnable{
     Thread gameBaseThread;  // Game thread
 
     //Entities and Objets
-    public Player player = new Player(100, 100,this, keyHandler, 100, 100, 100, 100, 100, 100, 100, 100); // Player
+    public Player player = new Player(100, 100,this, keyHandler, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100); // Player
     public Entity monster[] = new Entity[25];                                                   // Monster array (max 25)
     public Entity obj[] = new Entity[25];                                                       // Object array (max 25)
     public Entity npc[] = new Entity[25];                                                       // NPC array (max 25)

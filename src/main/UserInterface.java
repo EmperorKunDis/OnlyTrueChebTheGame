@@ -167,7 +167,8 @@ public class UserInterface {
                 titlePic = 0;
             }
             titlePic++;
-            g2.drawImage(setup( "/resources/characters/creating/PicChar" +picRandom),gp.screenWidth - (gp.screenWidth/3),0,gp.screenWidth/3,gp.screenHeight,null);
+            g2.drawImage(setup( "/resources/characters/creating/PicChar" +picRandom),
+                    gp.screenWidth - (gp.screenWidth/3),0,gp.screenWidth/3,gp.screenHeight,null);
 
             // Title name
             g2.setFont( ModeSeven.deriveFont(BOLD,160F));
@@ -243,7 +244,7 @@ public class UserInterface {
             g2.setFont(g2.getFont().deriveFont(82F));
 
             String text = "Select your class:";
-            int x = gp.tileSize; //getXforCenteredText(text)/3;
+            int x = gp.tileSize*2; //getXforCenteredText(text)/3;
             int y = gp.tileSize*2;
             String classStatsHead = "Class Stats";
             String classDescription;/* =  "-->" + ent.className +
