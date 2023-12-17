@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b95cac5-e8e3-4d2a-9f27-1557f295545a" name="Changes" comment="Snad to pujde prez ten git&#10;&#10;Signed-off-by: kundis &lt;martin.k.svanda@gmail.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right9.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +72,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Mrdko.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,11 +80,13 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "jbr-17",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/MSv/Desktop/SpringBoot_DemoAmigo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -114,6 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -174,6 +198,7 @@
       <workItem from="1701932241379" duration="1912000" />
       <workItem from="1702021005397" duration="2617000" />
       <workItem from="1702023671777" duration="21129000" />
+      <workItem from="1702784366087" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="Snad to pujde prez ten git">
       <option name="closed" value="true" />

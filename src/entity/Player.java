@@ -72,14 +72,22 @@ public class Player extends Entity{
     }
     public void getPlayerImage()
     {                             // Load player images
-            up1 = setup("/resources/characters/npc/Huf/Huf_up1",gp.tileSize,gp.tileSize*2);
-            up2 = setup("/resources/characters/npc/Huf/Huf_up2",gp.tileSize,gp.tileSize*2);
-            down1 = setup("/resources/characters/npc/Huf/Huf_down1",gp.tileSize,gp.tileSize*2);
-            down2 = setup("/resources/characters/npc/Huf/Huf_down2",gp.tileSize,gp.tileSize*2);
-            left1 = setup("/resources/characters/npc/Huf/Huf_left1",gp.tileSize,gp.tileSize*2);
-            left2 = setup("/resources/characters/npc/Huf/Huf_left2",gp.tileSize,gp.tileSize*2);
-            right1 = setup("/resources/characters/npc/Huf/Huf_right1",gp.tileSize,gp.tileSize*2);
-            right2 = setup("/resources/characters/npc/Huf/Huf_right2",gp.tileSize,gp.tileSize*2);
+        up1 = setup("/resources/characters/npc/Huf/Huf_up1",gp.tileSize,gp.tileSize*2);
+        up2 = setup("/resources/characters/npc/Huf/Huf_up2",gp.tileSize,gp.tileSize*2);
+        up3 = setup("/resources/characters/npc/Huf/Huf_up1",gp.tileSize,gp.tileSize*2);
+        up4 = setup("/resources/characters/npc/Huf/Huf_up2",gp.tileSize,gp.tileSize*2);
+        down1 = setup("/resources/characters/npc/Huf/Huf_down1",gp.tileSize,gp.tileSize*2);
+        down2 = setup("/resources/characters/npc/Huf/Huf_down2",gp.tileSize,gp.tileSize*2);
+        down3 = setup("/resources/characters/npc/Huf/Huf_down1",gp.tileSize,gp.tileSize*2);
+        down4 = setup("/resources/characters/npc/Huf/Huf_down2",gp.tileSize,gp.tileSize*2);
+        left1 = setup("/resources/characters/npc/Huf/Huf_left1",gp.tileSize,gp.tileSize*2);
+        left2 = setup("/resources/characters/npc/Huf/Huf_left2",gp.tileSize,gp.tileSize*2);
+        left3 = setup("/resources/characters/npc/Huf/Huf_left1",gp.tileSize,gp.tileSize*2);
+        left4 = setup("/resources/characters/npc/Huf/Huf_left2",gp.tileSize,gp.tileSize*2);
+        right1 = setup("/resources/characters/npc/Huf/Huf_right1",gp.tileSize,gp.tileSize*2);
+        right2 = setup("/resources/characters/npc/Huf/Huf_right2",gp.tileSize,gp.tileSize*2);
+        right3 = setup("/resources/characters/npc/Huf/Huf_right1",gp.tileSize,gp.tileSize*2);
+        right4 = setup("/resources/characters/npc/Huf/Huf_right2",gp.tileSize,gp.tileSize*2);
     }
 
 
