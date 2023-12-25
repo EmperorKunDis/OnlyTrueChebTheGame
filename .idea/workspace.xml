@@ -5,76 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b95cac5-e8e3-4d2a-9f27-1557f295545a" name="Changes" comment="Snad to pujde prez ten git&#10;&#10;Signed-off-by: kundis &lt;martin.k.svanda@gmail.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/entity/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/entity/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/entity/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/entity/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/main/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/main/UserInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackDown1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackDown1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackDown2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackDown2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackLeft1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackLeft1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackLeft2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackLeft2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackRight1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackRight1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackRight2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackRight2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackUp1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackUp1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackUp2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_attackUp2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_down1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_down1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_down2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_downbase.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_downbase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_left1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_left2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_right9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/resources/characters/npc/Huf/Huf_up6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackDown1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackDown1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackDown2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackDown2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackLeft1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackLeft1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackLeft2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackLeft2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackRight1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackRight1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackRight2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackRight2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackUp1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackUp1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackUp2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_attackUp2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_down6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_downbase.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_downbase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_left6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_right6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/characters/npc/Huf/Huf_up6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mapTiles/TiledProgramTiles/bezjmena.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mapTiles/TiledProgramTiles/bezjmena.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mapTiles/TiledProgramTiles/bezjmena.tiled-session" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mapTiles/TiledProgramTiles/bezjmena.tiled-session" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +83,11 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -256,6 +196,8 @@
       <workItem from="1702784366087" duration="428000" />
       <workItem from="1702787421823" duration="5627000" />
       <workItem from="1702799994426" duration="3136000" />
+      <workItem from="1703501338771" duration="232000" />
+      <workItem from="1703501804482" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="Snad to pujde prez ten git">
       <option name="closed" value="true" />
