@@ -9,7 +9,7 @@ public class obj_Czeko extends Entity {
         super(gp);
 
         name = "Czeko";
-        image1 = setup("/resources/items/Czeko", gp.tileSize, gp.tileSize);
+        image = setup("/resources/items/Czeko", gp.tileSize, gp.tileSize);
         /*
         image2 = setup("/resources/items/heart_half.png");
         image3 = setup("/resources/items/heart_empty.png");

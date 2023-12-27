@@ -9,23 +9,47 @@ public class NPC_KunDis extends Entity{
     public NPC_KunDis(GamePanel gp) {
         super(gp);
 
-        direction = "down";
+        direction = "down1";
         speed = 1;
 
-        getImage();
+//        getImage();
         setDialogue();
         update();
-        imageMaxNum = 3;
-    }
-    public void getImage() {
-        up1 = setup("/resources/characters/npc/Kundis/KunDis_up1", gp.tileSize, gp.tileSize*2);
-        up2 = setup("/resources/characters/npc/Kundis/KunDis_up2", gp.tileSize, gp.tileSize*2);
-        down1 = setup("/resources/characters/npc/Kundis/KunDis_down1", gp.tileSize, gp.tileSize*2);
-        down2 = setup("/resources/characters/npc/Kundis/KunDis_down2", gp.tileSize, gp.tileSize*2);
-        left1 = setup("/resources/characters/npc/Kundis/KunDis_left1", gp.tileSize, gp.tileSize*2);
-        left2 = setup("/resources/characters/npc/Kundis/KunDis_left2", gp.tileSize, gp.tileSize*2);
-        right1 = setup("/resources/characters/npc/Kundis/KunDis_right1", gp.tileSize, gp.tileSize*2);
-        right2 = setup("/resources/characters/npc/Kundis/KunDis_right2", gp.tileSize, gp.tileSize*2);
+        imageMaxNum = 8;
+//    }
+//    public void getImage() {
+        up1 = setup("/resources/characters/npc/Kundis/KunDisUp-0001", gp.tileSize*2, gp.tileSize*2);
+        up2 = setup("/resources/characters/npc/Kundis/KunDisUp-0002", gp.tileSize*2, gp.tileSize*2);
+        up3 = setup("/resources/characters/npc/Kundis/KunDisUp-0003", gp.tileSize*2, gp.tileSize*2);
+        up4 = setup("/resources/characters/npc/Kundis/KunDisUp-0004", gp.tileSize*2, gp.tileSize*2);
+        up5 = setup("/resources/characters/npc/Kundis/KunDisUp-0005", gp.tileSize*2, gp.tileSize*2);
+        up6 = setup("/resources/characters/npc/Kundis/KunDisUp-0006", gp.tileSize*2, gp.tileSize*2);
+        up7 = setup("/resources/characters/npc/Kundis/KunDisUp-0007", gp.tileSize*2, gp.tileSize*2);
+        up8 = setup("/resources/characters/npc/Kundis/KunDisUp-0008", gp.tileSize*2, gp.tileSize*2);
+        down1 = setup("/resources/characters/npc/Kundis/KunDisDown-0001", gp.tileSize*2, gp.tileSize*2);
+        down2 = setup("/resources/characters/npc/Kundis/KunDisDown-0002", gp.tileSize*2, gp.tileSize*2);
+        down3 = setup("/resources/characters/npc/Kundis/KunDisDown-0003", gp.tileSize*2, gp.tileSize*2);
+        down4 = setup("/resources/characters/npc/Kundis/KunDisDown-0004", gp.tileSize*2, gp.tileSize*2);
+        down5 = setup("/resources/characters/npc/Kundis/KunDisDown-0005", gp.tileSize*2, gp.tileSize*2);
+        down6 = setup("/resources/characters/npc/Kundis/KunDisDown-0006", gp.tileSize*2, gp.tileSize*2);
+        down7 = setup("/resources/characters/npc/Kundis/KunDisDown-0007", gp.tileSize*2, gp.tileSize*2);
+        down8 = setup("/resources/characters/npc/Kundis/KunDisDown-0008", gp.tileSize*2, gp.tileSize*2);
+        left1 = setup("/resources/characters/npc/Kundis/KunDisLeft-0001", gp.tileSize*2, gp.tileSize*2);
+        left2 = setup("/resources/characters/npc/Kundis/KunDisLeft-0002", gp.tileSize*2, gp.tileSize*2);
+        left3 = setup("/resources/characters/npc/Kundis/KunDisLeft-0003", gp.tileSize*2, gp.tileSize*2);
+        left4 = setup("/resources/characters/npc/Kundis/KunDisLeft-0004", gp.tileSize*2, gp.tileSize*2);
+        left5 = setup("/resources/characters/npc/Kundis/KunDisLeft-0005", gp.tileSize*2, gp.tileSize*2);
+        left6 = setup("/resources/characters/npc/Kundis/KunDisLeft-0006", gp.tileSize*2, gp.tileSize*2);
+        left7 = setup("/resources/characters/npc/Kundis/KunDisLeft-0007", gp.tileSize*2, gp.tileSize*2);
+        left8 = setup("/resources/characters/npc/Kundis/KunDisLeft-0008", gp.tileSize*2, gp.tileSize*2);
+        right1 = setup("/resources/characters/npc/Kundis/KunDisRight-0001", gp.tileSize*2, gp.tileSize*2);
+        right2 = setup("/resources/characters/npc/Kundis/KunDisRight-0002", gp.tileSize*2, gp.tileSize*2);
+        right3 = setup("/resources/characters/npc/Kundis/KunDisRight-0003", gp.tileSize*2, gp.tileSize*2);
+        right4 = setup("/resources/characters/npc/Kundis/KunDisRight-0004", gp.tileSize*2, gp.tileSize*2);
+        right5 = setup("/resources/characters/npc/Kundis/KunDisRight-0005", gp.tileSize*2, gp.tileSize*2);
+        right6 = setup("/resources/characters/npc/Kundis/KunDisRight-0006", gp.tileSize*2, gp.tileSize*2);
+        right7 = setup("/resources/characters/npc/Kundis/KunDisRight-0007", gp.tileSize*2, gp.tileSize*2);
+        right8 = setup("/resources/characters/npc/Kundis/KunDisRight-0008", gp.tileSize*2, gp.tileSize*2);
     }
     public void setDialogue() {
         dialogues = new String[10];

@@ -7,6 +7,7 @@
     "expandedProjectPaths": [
         "."
     ],
+    "exportAsImage.drawTileGrid": true,
     "fileStates": {
         "": {
             "scaleInDock": 1
@@ -17,23 +18,27 @@
         },
         "PlantRepack.tsx": {
             "scaleInDock": 1,
-            "scaleInEditor": 1.5
+            "scaleInEditor": 2
         },
         "Teren.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
         "bezjmena.js": {
-            "scale": 0.5,
-            "selectedLayer": 2,
+            "scale": 0.125,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 2619,
-                "y": 4088
+                "x": 6364,
+                "y": 5324
             }
+        },
+        "terrain_atlas.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
         }
     },
     "last.exportedFilePath": "C:/Users/Martin Svanda/Desktop/OnlyTrueChebTheGame-main/OnlyTrueChebTheGame/src/resources/mapTiles/TiledProgramTiles",
-    "last.imagePath": "C:/Users/Martin Svanda/Desktop/OnlyTrueChebTheGame-main/OnlyTrueChebTheGame/src/resources/mapTiles/TiledProgramTiles",
+    "last.imagePath": "C:/Users/Martin Svanda/Downloads/Tiled map parts",
     "map.height": 200,
     "map.lastUsedExportFilter": "Soubory GameMaker Room (*.room.gmx)",
     "map.lastUsedFormat": "js",
@@ -43,10 +48,12 @@
         "bezjmena.js",
         "Forest.tsx",
         "Teren.tsx",
-        "PlantRepack.tsx"
+        "PlantRepack.tsx",
+        "terrain_atlas.tsx"
     ],
     "project": "bezjmena.tiled-project",
     "recentFiles": [
+        "terrain_atlas.tsx",
         "PlantRepack.tsx",
         "Teren.tsx",
         "Forest.tsx",

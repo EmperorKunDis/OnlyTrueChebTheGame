@@ -41,7 +41,7 @@ public class GamePanel extends JPanel implements Runnable{
 
     //Entities and Objets
     public Player player = new Player(100, 100,this, keyHandler, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100); // Player
-    public Entity monster[] = new Entity[25];                                                   // Monster array (max 25)
+    public Entity mon[] = new Entity[25];                                                   // Monster array (max 25)
     public Entity obj[] = new Entity[25];                                                       // Object array (max 25)
     public Entity npc[] = new Entity[25];                                                       // NPC array (max 25)
 
@@ -140,9 +140,9 @@ public class GamePanel extends JPanel implements Runnable{
                     npc[i].update();
                 }
             }
-            for(int i = 0; i < monster.length; i++) {                   // Update monster
-                if(monster[i] != null) {
-                    monster[i].update();
+            for(int i = 0; i < mon.length; i++) {                   // Update monster
+                if(mon[i] != null) {
+                    mon[i].update();
                 }
             }
         }
@@ -155,17 +155,18 @@ public class GamePanel extends JPanel implements Runnable{
     public void paintComponent(Graphics g) {                        // Draw on screen (paint) every frame (every 0,00833333 with 120 FPS seconds)
         super.paintComponent(g);                                    // Paint component (draw on screen) from JPanel (game panel) class
         Graphics2D g2 = (Graphics2D) g;                             // Graphics 2D
-        //Title Screen
-        if(gameState == titleState) {
+
+        if(gameState == titleState) {                               //Title Screen
             ui.draw(g2);
         }
-        //Others
-        else {
-            //Tile
-            tileManager.draw(g2);
-            //Add Objects and NPC to Entity List
+
+        else {                                                      //Others
+
+            tileManager.draw(g2);                                   //Tile
+
             entityList.add(player);
-            for(int i = 0;i<npc.length; i++ ) {
+
+            for(int i = 0; i < npc.length; i++) {                    //Add Objects and NPC to Entity List
                 if(npc[i] != null) {
                     entityList.add(npc[i]);
                 }
@@ -175,9 +176,9 @@ public class GamePanel extends JPanel implements Runnable{
                     entityList.add(obj[i]);
                 }
             }
-            for(int i = 0;i<monster.length; i++ ) {
-                if(monster[i] != null) {
-                    entityList.add(monster[i]);
+            for(int i = 0;i<mon.length; i++ ) {
+                if(mon[i] != null) {
+                    entityList.add(mon[i]);
                 }
             }
             //Sortin Entities

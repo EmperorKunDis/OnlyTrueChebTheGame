@@ -11,12 +11,13 @@ import java.io.IOException;
 public class Entity {
 
     GamePanel gp;
-    public BufferedImage  up1, up2, up3, up4, up5, up6, down1, down2, down3, down4, down5, down6, left1, left2, left3, left4, left5, left6, right1, right2, right3, right4, right5, right6;
+    public BufferedImage  up1, up2, up3, up4, up5, up6, up7, up8, down1, down2, down3, down4, down5, down6, down7, down8, left1, left2, left3, left4, left5, left6, left7, left8, right1, right2, right3, right4, right5, right6, right7, right8;
     public BufferedImage attackUp1, attackUp2, attackUp3, attackUp4, attackUp5, attackUp6, attackDown1, attackDown2, attackDown3, attackDown4, attackDown5, attackDown6, attackLeft1, attackLeft2, attackLeft3, attackLeft4, attackLeft5, attackLeft6, attackRight1, attackRight2, attackRight3, attackRight4, attackRight5, attackRight6;
-    public BufferedImage  image1, image2, image3, image4, image5, image6, image7, image8, image9, image10;
+    public BufferedImage  image, image2, image3, image4, image5, image6, image7, image8, image9, image10;
     public Rectangle solidArea = new Rectangle(0, 0, 48, 48);
     public int solidAreaDefaultX, solidAreaDefaultY;
     String dialogues[] = new String[20];
+    int dialogueIndex = 0;
     public boolean collision = false;
 
     // STATE
@@ -24,7 +25,6 @@ public class Entity {
     public boolean collisionOn = false;
     public int spriteNum;
     public boolean invincible = false;
-    int dialogueIndex = 0;
     public String direction = "down";
     public boolean attack = false;
 
@@ -88,7 +88,7 @@ public class Entity {
         gp.cChecker.checkTile(this);
         gp.cChecker.checkObject( this,false);
         gp.cChecker.checkEntity( this,gp.npc );
-        gp.cChecker.checkEntity(this, gp.monster );
+        gp.cChecker.checkEntity(this, gp.mon );
         boolean contactPlayer = gp.cChecker.checkPlayer(this);
 
         if(this.type == 1 && contactPlayer == true) {
@@ -108,8 +108,16 @@ public class Entity {
         }
 
         spriteCounter++;
-        if(spriteCounter > 16) {
+        if(spriteCounter > 32) {
             switch(imageMaxNum) {
+                case 8:
+                    if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 4;} else if (spriteNum == 4) {spriteNum = 5;} else if (spriteNum == 5) {spriteNum = 6;}else if (spriteNum == 6) {spriteNum = 7;}else if (spriteNum == 7) {spriteNum = 8;} else if (spriteNum == 8) {spriteNum = 1;}
+                    spriteCounter = 1;
+                    break;
+                case 7:
+                    if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 4;} else if (spriteNum == 4) {spriteNum = 5;} else if (spriteNum == 5) {spriteNum = 6;} else if (spriteNum == 6) {spriteNum = 7;} else if (spriteNum == 7) {spriteNum = 1;}
+                    spriteCounter = 1;
+                    break;
                 case 6:
                     if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 4;} else if (spriteNum == 4) {spriteNum = 5;} else if (spriteNum == 5) {spriteNum = 6;} else if (spriteNum == 6) {spriteNum = 1;}
                     spriteCounter = 1;
@@ -145,13 +153,13 @@ public class Entity {
                 worldY - gp.tileSize < gp.player.worldY + gp.player.screenY ) {
 
             switch(direction) {
-                case "up": switch(spriteNum){case 1:image1 = up1;break;case 2: image2=up2;break; case 3: image3=up3;break; case 4: image4 = up4;break;case 5: image5 = up5;break; case 6: image6 = up6;}break;
-                case "down": switch(spriteNum){case 1:image1 = down1;break;case 2: image2=down2;break;case 3: image3=down3;break;case 4: image4 = down4;break;case 5: image5 = down5;break; case 6: image6 = down6;}break;
-                case "left": switch(spriteNum){case 1:image1 = left1;break;case 2: image2=left2;break;case 3: image3= left3;break;case 4: image4 = left4; break;case 5: image5 = left5;break; case 6: image6 = left6;}break;
-                case "right": switch(spriteNum){case 1:image1 = right1;break;case 2: image2=right2;break;case 3: image3 = right3;break;case 4: image4 = right4;break;case 5: image5 = right5;break; case 6: image6 = right6;}break;
+                case "up": switch(spriteNum){case 1:image = up1;break;case 2: image=up2;break; case 3: image=up3;break; case 4: image = up4;break;case 5: image = up5;break; case 6: image = up6;break; case 7: image = up7;break; case 8: image = up8;}break;
+                case "down": switch(spriteNum){case 1:image = down1;break;case 2: image=down2;break;case 3: image=down3;break;case 4: image = down4;break;case 5: image = down5;break; case 6: image = down6;break; case 7: image = down7;break; case 8: image = down8;}break;
+                case "left": switch(spriteNum){case 1:image = left1;break;case 2: image=left2;break;case 3: image= left3;break;case 4: image = left4; break;case 5: image = left5;break; case 6: image = left6;break; case 7: image = left7;break; case 8: image = left8;}break;
+                case "right": switch(spriteNum){case 1:image = right1;break;case 2: image=right2;break;case 3: image = right3;break;case 4: image = right4;break;case 5: image = right5;break; case 6: image = right6;break; case 7: image = right7;break; case 8: image = right8;}break;
             }
 
-            g2.drawImage(image1, screenX, screenY, gp.tileSize, gp.tileSize, null);
+            g2.drawImage(image, screenX, screenY, gp.tileSize, gp.tileSize, null);
             g2.setColor(Color.white);
             g2.drawRect(screenX, screenY, gp.tileSize, gp.tileSize);
 

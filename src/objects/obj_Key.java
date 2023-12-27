@@ -9,7 +9,7 @@ public class obj_Key extends Entity {
         super(gp);
 
         name = "SecurityCard";
-        image1 = setup("/resources/items/SecurityCard", gp.tileSize, gp.tileSize);
+        image = setup("/resources/items/SecurityCard", gp.tileSize, gp.tileSize);
         /*
         image2 = setup("/resources/items/heart_half.png");
         image3 = setup("/resources/items/heart_empty.png");

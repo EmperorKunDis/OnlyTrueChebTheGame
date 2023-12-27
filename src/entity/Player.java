@@ -161,7 +161,7 @@ public class Player extends Entity{
             interactNPC(npcIndex);
 
             //Check Monster Collision
-            int monsterIndex = gp.cChecker.checkEntity(this, gp.monster );
+            int monsterIndex = gp.cChecker.checkEntity(this, gp.mon );
             contactMonster(monsterIndex);
 
             //Check Event
