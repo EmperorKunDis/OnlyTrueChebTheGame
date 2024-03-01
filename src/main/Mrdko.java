@@ -7,7 +7,7 @@ public class Mrdko {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("Pizdec HardCore RPG");
+        window.setTitle("Hellcraft HardCore RPG");
 
         GamePanel gamePanel = new GamePanel();
         window.add(gamePanel);

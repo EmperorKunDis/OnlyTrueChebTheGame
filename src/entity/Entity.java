@@ -153,10 +153,10 @@ public class Entity {
                 worldY - gp.tileSize < gp.player.worldY + gp.player.screenY ) {
 
             switch(direction) {
-                case "up": switch(spriteNum){case 1:image = up1;break;case 2: image=up2;break; case 3: image=up3;break; case 4: image = up4;break;case 5: image = up5;break; case 6: image = up6;break; case 7: image = up7;break; case 8: image = up8;}break;
-                case "down": switch(spriteNum){case 1:image = down1;break;case 2: image=down2;break;case 3: image=down3;break;case 4: image = down4;break;case 5: image = down5;break; case 6: image = down6;break; case 7: image = down7;break; case 8: image = down8;}break;
-                case "left": switch(spriteNum){case 1:image = left1;break;case 2: image=left2;break;case 3: image= left3;break;case 4: image = left4; break;case 5: image = left5;break; case 6: image = left6;break; case 7: image = left7;break; case 8: image = left8;}break;
-                case "right": switch(spriteNum){case 1:image = right1;break;case 2: image=right2;break;case 3: image = right3;break;case 4: image = right4;break;case 5: image = right5;break; case 6: image = right6;break; case 7: image = right7;break; case 8: image = right8;}break;
+                case "up": switch(spriteNum){case 1:image = up1;break;case 2: image2=up2;break; case 3: image3=up3;break; case 4: image4 = up4;break;case 5: image5 = up5;break; case 6: image6 = up6;break; case 7: image7 = up7;break; case 8: image8 = up8;}break;
+                case "down": switch(spriteNum){case 1:image = down1;break;case 2: image2=down2;break;case 3: image3=down3;break;case 4: image4 = down4;break;case 5: image5 = down5;break; case 6: image6 = down6;break; case 7: image7 = down7;break; case 8: image8 = down8;}break;
+                case "left": switch(spriteNum){case 1:image = left1;break;case 2: image2=left2;break;case 3: image3= left3;break;case 4: image4 = left4; break;case 5: image5 = left5;break; case 6: image6 = left6;break; case 7: image7 = left7;break; case 8: image8 = left8;}break;
+                case "right": switch(spriteNum){case 1:image = right1;break;case 2: image2=right2;break;case 3: image3 = right3;break;case 4: image4 = right4;break;case 5: image5 = right5;break; case 6: image6 = right6;break; case 7: image7 = right7;break; case 8: image8 = right8;}break;
             }
 
             g2.drawImage(image, screenX, screenY, gp.tileSize, gp.tileSize, null);

@@ -187,8 +187,7 @@ public class Player extends Entity{
                         case 5: if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 4;} else if (spriteNum == 4) {spriteNum = 1;}spriteCounter = 1;break;
                         case 4: if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 3;} else if (spriteNum == 3) {spriteNum = 1;}spriteCounter = 1;break;
                         case 3: if(spriteNum == 1) {spriteNum = 2;} else if (spriteNum == 2) {spriteNum = 1;}spriteCounter = 1;break;
-                        case 2:
-                            spriteCounter = 0;break;
+                        case 2: spriteCounter = 0;break;
                 }
             }
         }
